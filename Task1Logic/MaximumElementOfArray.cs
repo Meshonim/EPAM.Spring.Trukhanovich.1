@@ -13,7 +13,7 @@ namespace Task1Logic
     {
         #region Public Methods
         /// <summary>
-        /// Finding maximum array element recursively
+        /// Finds maximum array element recursively
         /// </summary>
         /// <param name="array">an array to determine the maximum value of</param>
         /// <param name="index">ending array index of the finding</param>

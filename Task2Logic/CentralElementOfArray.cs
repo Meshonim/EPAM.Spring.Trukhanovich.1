@@ -13,10 +13,10 @@ namespace Task2Logic
     {
         #region Public Methods
         /// <summary>
-        /// Find an index of array element such that its prefix sum equals its suffix sum 
+        /// Finds an index of array element such that its prefix sum equals its suffix sum 
         /// </summary>
         /// <param name="array">an array to determine the central value index of</param>
-        /// <returns>index of cental element of array</returns>
+        /// <returns>the index of central element of the array or -1 if this element doesnt't exist</returns>
         public static int FindIndexOfCentalElement (int[] array)
         {
             if (array == null)

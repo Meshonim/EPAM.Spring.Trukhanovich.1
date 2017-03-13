@@ -18,7 +18,7 @@ namespace Task4Logic
         /// </summary>
         /// <param name="firstString">the first string to operate</param>
         /// <param name="secondString">the second string to operate</param>
-        /// <returns>alphabetized concatenation of two strings without char duplications</returns>
+        /// <returns>the string which is alphabetized concatenation of two strings without char duplications</returns>
         public static string ConcatAndAlphabetize(string firstString, string secondString)
         {
             if ((firstString == null) || (secondString == null))
