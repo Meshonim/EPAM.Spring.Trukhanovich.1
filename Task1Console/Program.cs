@@ -34,7 +34,7 @@ namespace Task1Console
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"Exception in array {i}: " + e.Message);
+                    Console.WriteLine($"Exception in {i} array: " + e.Message);
                 }
             }
         }
